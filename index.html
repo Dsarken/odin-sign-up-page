@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Signup Page</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="form-container">
+      <div class="landscape-sidebar">
+        <div class="landscape-sidebar-logo">
+          <img src="./images/odin-logo.png" alt="odin logo" class="logo" />
+          ODIN
+        </div>
+        <div class="photo-credit">
+          Photo by
+          <a class="hyperlink-color" href="https://unsplash.com/@vorosbenisop"
+            >Dima DallAcqua</a
+          >
+          on
+          <a class="hyperlink-color" href="https://unsplash.com/@dimadallacqua"
+            >Unsplash</a
+          >
+        </div>
+      </div>
+      <div class="form-right-section">
+        <div class="form-section-header">
+          <p class="bolds">
+            This is not a real online service! You know you need something like
+            this in your life to help you realize your deepest dreams. Sign up
+            <span class="italics">now</span> to get started.
+          </p>
+          <p class="bolds">
+            You <span class="italics">know</span> you want to.
+          </p>
+        </div>
+        <form>
+          <div class="form-inputs">
+            <p class="form-text">Let's do this!</p>
+
+            <div class="form-section-row">
+              <label for="first-name">FIRST NAME</label>
+              <input type="text" id="first-name" name="first-name" required />
+            </div>
+            <div class="form-section-row">
+              <label for="last-name">LAST NAME</label>
+              <input type="text" id="last-name" name="last-name" required />
+            </div>
+            <div class="form-section-row">
+              <label for="mail">EMAIL</label>
+              <input type="email" id="mail" name="email" required />
+            </div>
+            <div class="form-section-row">
+              <label for="phone-number">PHONE NUMBER</label>
+              <input
+                type="tel"
+                id="phone-number"
+                name="phone-number"
+                required
+              />
+            </div>
+            <div class="form-section-row">
+              <label for="password">PASSWORD</label>
+              <input type="password" id="password" name="password" required />
+              <span></span>
+            </div>
+            <div class="form-section-row">
+              <label for="confirm-password">CONFIRM PASSWORD</label>
+              <input
+                type="password"
+                id="confirm-password"
+                name="confirm-password"
+                required
+              />
+            </div>
+          </div>
+          <div class="form-section-footer">
+            <button type="submit" class="button">Create Account</button>
+            <p class="bolds">Already have an account? <a href="#">Log in</a></p>
+          </div>
+        </form>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
